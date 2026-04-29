@@ -1,0 +1,12 @@
+# 1. Ignore everything in the entire repository and whitelist allowed files.
+*
+
+# 2. Un-ignore the .gitignore file itself (so it gets tracked by Git)
+!.gitignore
+
+# 3. Un-ignore the README.md file
+!README.md
+
+# 4. Un-ignore the images folder and everything inside it
+!images/
+!images/**
